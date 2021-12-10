@@ -1,0 +1,22 @@
+.wrapperCard{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    border-color: #F8EAEA;
+
+}
+
+
+.wrapperTitleCard{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.wrapperCard a{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
