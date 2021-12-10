@@ -1,0 +1,77 @@
+.contentCreate {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+}
+
+
+
+.wrapperCreatePost {
+display: flex;
+flex-direction: column;
+border: solid 1px;
+border-color: #D4D2D2;
+gap: 30px;
+}
+
+.titlePost{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: solid 1px;
+    border-color: #D4D2D2;
+    align-items: center;
+}
+
+.buttonPost {
+    width: 204px;
+    height: 52px;
+    background: #1D8BDB;
+    border: 1px solid #D2D3D4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.wrapperDescriptionPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.wrapperTitle input{
+width: 573px;
+height: 52px;
+background: #FCF8F8;
+border: 1px solid #D4D2D2;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 10px;
+}
+
+
+.descriptionText input{
+ display: flex;
+width: 573px;
+height: 248px;
+background: #FCF8F8;
+border: 1px solid #D4D2D2;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 10px;
+
+}
+
+.uploadPhotos button{
+    width: 573px;
+    height: 52px;
+    background: #1D8BDB;
+    border: 1px solid #D2D3D4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+}
