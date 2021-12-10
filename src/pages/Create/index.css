@@ -75,3 +75,27 @@ padding: 10px;
     color: white;
     margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 706px) {
+
+    .buttonPost {
+        width: 80px;
+        height: 57px;
+    }
+
+    .wrapperTitle input {
+        width: 200px;
+        height: 57px;
+    }
+    .descriptionText input{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .uploadPhotos button{
+        width: 225px;
+        height: 57px;
+    }
+}
+
