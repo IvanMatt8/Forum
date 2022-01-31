@@ -10,9 +10,9 @@ function Header () {
       <header>
           <div className="logoHeader">ivanBlog</div>
           <ul>
-              <a href="/"> <AiOutlineInstagram /> </a>
-              <a href="/"> <FiGithub /> </a>
-              <a href="/"> <AiOutlineLinkedin /></a>
+              <a href="https://www.instagram.com/ivanmattcode/"> <AiOutlineInstagram /> </a>
+              <a href="https://github.com/IvanMatt8"> <FiGithub /> </a>
+              <a href="https://www.linkedin.com/in/ivan-matheus-41a60221b/"> <AiOutlineLinkedin /></a>
           </ul>
       </header>
     )
