@@ -1,0 +1,25 @@
+button{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+width: 200px;
+height: 52px;
+background: #1D8BDB;
+border: 1px solid #D2D3D4;
+box-sizing: border-box;
+border-radius: 5px;
+color: white;
+margin-bottom: 30px;
+padding:10px ;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+button:hover {
+    
+        transform: scale(1.1);
+        transition: all 0.8s;
+      
+}
