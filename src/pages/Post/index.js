@@ -18,8 +18,10 @@ function Post() {
         'Accept': 'application/json'
       }
     }).then(response => {
-      setPosts(response.data)
-      setFirstPost(response.data.shift())
+      setPosts(response.data.posts)
+      setFirstPost(response.data.posts.shift())
+      
+
     });
 
   }, [])
@@ -35,7 +37,7 @@ function Post() {
         <div className="wrapperTitle">
           <h2>{firstPost.title}</h2>
           <p>{firstPost.description}</p>
-          <a href="/"> Read Full  <BsArrowRight className="iconArrow" color="blue" width="27" height="25" /> </a>
+          <a href="http://localhost:3000/Create"> Read Full  <BsArrowRight className="iconArrow" color="blue" width="27" height="25" /> </a>
         </div>
       </div>
       <div className="contentCards">
